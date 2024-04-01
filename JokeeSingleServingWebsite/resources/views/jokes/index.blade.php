@@ -24,7 +24,7 @@
             <div class="col-3 col-md-2 col-lg-1">
                 <img src="{{asset('images/logo.png')}}" class="img-fluid" alt="">
             </div>
-            <div class="col-8 col-md-4 col-lg-2">
+            <div class="col-8 col-md-5 col-lg-3">
                 <div class="row d-flex align-items-center">
                     <div class="col-7">
                         <div class="row justify-content-end fw-normal fst-italic text-muted">
