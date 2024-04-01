@@ -21,12 +21,12 @@
 <body>
     <div class="container">
         <div class="row h-100 py-2 d-flex justify-content-between align-items-center">
-            <div class="col-sm-3 col-md-2 col-lg-1">
+            <div class="col-3 col-md-2 col-lg-1">
                 <img src="{{asset('images/logo.png')}}" class="img-fluid" alt="">
             </div>
-            <div class="col-sm-8 col-md-4 col-lg-2">
+            <div class="col-8 col-md-4 col-lg-2">
                 <div class="row d-flex align-items-center">
-                    <div class="col-sm-7">
+                    <div class="col-7">
                         <div class="row justify-content-end fw-normal fst-italic text-muted">
                             Handicrafted By
                         </div>
@@ -34,7 +34,7 @@
                             Jim HLS
                         </div>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <img src="{{asset('images/logo_right.png')}}" class="img-fluid rounded-circle" alt="">
                     </div>
                 </div>
@@ -52,7 +52,7 @@
     </div>
 
     <div class="row content justify-content-center text-center border-bottom border-2">
-        <div class="col-sm-10">
+        <div class="col-10">
             <div class="containter">
                 <div class="text-start" id="jokeContainer">
                     <input type="hidden" name="id" value="{{ $index }}" id="id">
@@ -63,8 +63,8 @@
             <hr class="line" />
 
             
-            <button class="mx-3 btn-custom btn-like">This is Funny!</button>
-            <button class="mx-3 btn-custom btn-dislike">This is not funny.</button>
+            <button class="m-3 btn-custom btn-like">This is Funny!</button>
+            <button class="m-3 btn-custom btn-dislike">This is not funny.</button>
         </div>
     </div>
 
